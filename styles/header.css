@@ -1,0 +1,27 @@
+header{
+    width: 70%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+header .max{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .max nav{
+    display: flex;
+}
+header .max nav a{
+    text-decoration: none;
+    color: var(--dark-blue); 
+    margin: 0 15px;
+    font-size: .9rem;
+}
+header .max .btn a{
+    text-decoration: none;
+}
+
+
