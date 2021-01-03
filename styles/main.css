@@ -1,6 +1,7 @@
 #landing .max{
     display: flex;
-    height: 600px;
+    min-height: 600px;
+    max-height: 1000px;
 }
 #landing .descrip{
     height: 100%;
@@ -25,4 +26,131 @@
 }
 #landing .intro{
     width: 50%;
+}
+
+#differential{
+    display: flex;
+    min-height: 600px;
+    max-height: 1000px;
+}
+#differential .max{
+    padding-top: 10%;
+    display: inherit;
+}
+#differential .descrip{
+    padding-right: 30px;
+    width: 50%;
+}
+#differential .descrip h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 55px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+#differential .descrip h3{
+    font-weight: 400;
+    color: var(--dark-greyish-blue);
+    padding-right: 20px;
+    margin-bottom: 60px;
+}
+#differential .list{
+    padding-left: 30px;
+    width: 50%;
+}
+#differential .list ul{
+    list-style: none;
+}
+#differential .list .items{
+    display: grid;
+    grid-template-columns: 60px calc(100% - 60px);
+}
+#differential .list .items span{
+    width: 60px;
+    height: 35px;
+    background-color: var(--bright-red);
+    color: white;
+    border-radius: 30px;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#differential .list .items .box-items{
+    margin-left: 30px;
+}
+#differential .list .items .box-items h1{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: initial;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+}
+#differential .list .items .box-items h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--dark-greyish-blue);
+    margin-bottom: 40px;
+}
+
+#clients{
+    display: flex;
+    min-height: 600px;
+    max-height: 1400px;
+    justify-content: center;
+}
+#clients .max{
+    display: inherit;
+    flex-direction: column;
+    padding-top: 10%;
+    align-items: center;
+}
+#clients h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 100px;
+}
+#clients .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#clients .card{
+    width: 480px;
+    height: 170px;
+    background-color: #f0f0f073;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding: 30px 20px;
+}
+#clients .card .avatar{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    top: -18%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#clients .card h1{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#clients .card h3{
+    font-size: .8rem;
+    font-weight: 400;
+    color: var(--dark-greyish-blue);
+    text-align: center;
+}
+#clients .btn{
+
+}
+#clients .btn a{
+    text-decoration: none;
 }

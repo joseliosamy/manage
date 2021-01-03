@@ -31,6 +31,7 @@ a{
 .btn{
     text-decoration: none;
     background-color: var(--bright-red);
+    box-shadow: 0 15px 5px var(--very-pale-red);
     width: 150px;
     height: 50px;
     display: flex;
