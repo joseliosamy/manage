@@ -26,13 +26,20 @@
     text-decoration: none;
 }
 #landing .intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
+}
+#landing .intro img{
+    width: 100%;
+    max-width: 550px;
 }
 
 #differential{
     display: flex;
     min-height: 600px;
-    max-height: 1000px;
+    max-height: auto;
 }
 #differential .max{
     padding-top: 10%;
@@ -120,8 +127,8 @@
     justify-content: center;
 }
 #clients .card{
-    width: 480px;
-    height: 170px;
+    max-width: 480px;
+    min-height: 170px;
     background-color: #f0f0f073;
     position: relative;
     margin-right: 10px;
@@ -232,7 +239,7 @@ footer .search{
 footer input[type="text"]{
     border: 0;
     padding: 0 10px;
-    font-size: .9rem;
+    font-size: .8rem;
     width: 180px;
     height: 45px;
     border-radius: 30px;
@@ -247,7 +254,7 @@ footer input[type="submit"]{
     height: 45px;
     border-radius: 30px;
     font-weight: 500;
-    font-size: .9rem;
+    font-size: .8rem;
     color: white;
 }
 footer .search p{

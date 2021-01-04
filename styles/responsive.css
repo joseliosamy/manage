@@ -1,0 +1,174 @@
+@media(max-width:1150px){
+
+    header .max nav a{
+        margin: 0 5px;
+        font-size: .7rem;
+    }
+    header .max .btn a{
+        width: 120px;
+        height: 42px;
+        font-size: .7rem;
+    }   
+    #landing .descrip h1{   
+        font-size: 2.5rem;
+    }
+    #landing .descrip h3{   
+        font-size: 1rem;
+    }
+    footer .max{
+        width: 80%;
+    }
+}
+@media(max-width:900px){
+    header{
+        width: 80%;
+        height: 70px;
+    }
+    header .max nav{
+        display: none;
+    }
+    header .max .btn{   
+        display: none;
+    }
+    #landing .max{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #landing .descrip{
+        text-align: center;
+        height: 100%;
+        width: 90%;
+        padding: 0 0;
+    }
+    #landing .descrip h1{   
+        padding: 0;
+        line-height: normal;
+        font-size: min(2rem, 5vw);
+        margin-bottom: 10px;
+    }
+    #landing .descrip h3{   
+        padding: 0;
+        font-size: min(1rem, 3vw);
+        margin-bottom: 15px;
+    }
+    #landing .descrip .btn a{
+        margin: 0 auto;
+    }
+    #landing .intro{
+        width: 50vw;
+    }
+    #differential .max{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #differential .descrip{
+        width: 90%;
+        padding: 0;
+        text-align: center;
+    }
+    #differential .descrip h1{
+        padding:  0;
+        font-size: min(2rem, 5vw);
+        margin-bottom: 10px;
+    }
+    #differential .descrip h3{
+        padding:  0;
+        margin-bottom: 60px;
+        font-size: min(1rem, 3vw);
+    }
+    #differential .list{
+        padding: 0;
+        width: 90%;
+        text-align: center;
+    }
+    #differential .list .items{
+        display: flex;
+    }
+    #differential .list .items span{
+        display: none;
+    }
+    #differential .list .items .box-items{
+        margin-left: 0;
+    }  
+    #differential .list .items .box-items h1{
+        background-color: var(--very-pale-red);
+        border-radius: 30px;
+        margin-bottom: 10px;
+        font-size: min(1.3rem, 5.3vw);
+    }   
+    #differential .list .items .box-items h3{
+        font-size: min(1rem, 3vw);
+    }
+
+    #clients .max{
+        width: 90%;
+    }
+    #clients h1{
+        font-size: min(2rem, 5vw);
+    }
+    #clients .card{
+        margin-top: 60px;
+    }
+    #clients .cards .card h1{
+        font-size: min(1.3rem, 4.7vw);
+    } 
+
+    #banner .max{
+        width: 90%;
+    }
+    #banner .max h1{
+        font-size: min(2rem, 5vw);
+    }
+    footer{
+        height: auto;
+    }
+    footer .max{
+        width: 100%;
+        padding: 8% 0;
+        flex-direction: column-reverse;
+    }
+    footer .socials{
+        width: 100%;
+        align-items: center;
+    }
+    footer .socials a{
+        margin-bottom: 20px;
+    }
+    footer .network{
+        width: 60%;
+    }
+    footer .network a{
+        margin: 0 20px;
+    }
+    footer .utilities{
+        width: 100%;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    footer .utilities a{
+        margin: 0 10px;
+    }
+    footer .search{
+        width: 100%;
+        position: relative;
+    }
+    footer .search p{
+        top: 220px;
+        position: absolute;
+    }
+    footer .input-search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer input[type="text"]{
+        width: 55%;
+    }
+}
+@media(max-width:550px){
+    
+}

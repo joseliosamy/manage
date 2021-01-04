@@ -21,7 +21,7 @@ header .max nav a{
     text-decoration: none;
     color: var(--dark-blue); 
     margin: 0 15px;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 header .max .btn a{
     text-decoration: none;
