@@ -1,7 +1,8 @@
+
 #landing .max{
     display: flex;
     min-height: 600px;
-    max-height: 1000px;
+    max-height: auto;
 }
 #landing .descrip{
     height: 100%;
@@ -105,16 +106,16 @@
 #clients .max{
     display: inherit;
     flex-direction: column;
-    padding-top: 10%;
+    padding: 10% 0;
     align-items: center;
 }
 #clients h1{
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 100px;
 }
 #clients .cards{
     display: flex;
+    padding: 10% 0 8% 0;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -148,9 +149,113 @@
     color: var(--dark-greyish-blue);
     text-align: center;
 }
-#clients .btn{
-
-}
 #clients .btn a{
     text-decoration: none;
 }
+
+#banner{
+    background-image: url(../images/bg-simplify-banner.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    color: #fff0ec33;
+    background-color: var(--bright-red);
+    display: flex;
+}
+#banner .max{
+    display: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+#banner h1{
+    color: white;
+    font-size: 2rem;
+    width: 40%;
+}
+#banner .btn a{
+    color: var(--bright-red);
+    background-color: white;
+    text-decoration: none;
+    box-shadow: 0 5px 5px #46464654;
+}
+
+footer{
+    background-color: var( --very-vark-blue);
+    display: flex;
+    height: 250px;
+}
+footer .max{
+    display: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .network{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .socials{
+    height: 100%;
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer .network a{
+    margin: 4px;
+}
+footer .utilities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 60%;
+    flex-wrap: wrap;
+}
+footer .utilities a{
+    margin: 5px 0;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 400;
+    color: white;
+}
+footer .search{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer input[type="text"]{
+    border: 0;
+    padding: 0 10px;
+    font-size: .9rem;
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    outline: 0;
+}
+footer input[type="submit"]{
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    background-color: var(--bright-red);
+    width: 70px;
+    height: 45px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: .9rem;
+    color: white;
+}
+footer .search p{
+    font-size: .8rem;
+    font-weight: 400;
+    color: rgb(143, 143, 143);
+    text-align: center;
+}
+
+
+

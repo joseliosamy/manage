@@ -16,8 +16,12 @@
     font-family: 'Be Vietnam', sans-serif;
     color: var(--dark-blue);
 }
+body{
+    background-image: url(../images/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
 #container{
-    width: 70%;
     margin: 0 auto;
 }
 a{
@@ -25,10 +29,11 @@ a{
 }
 /*boot*/
 .max{
+    width: 70%;
     max-width: 1400px;
     margin: 0 auto;
 }
-.btn{
+.btn a{
     text-decoration: none;
     background-color: var(--bright-red);
     box-shadow: 0 15px 5px var(--very-pale-red);
@@ -41,3 +46,4 @@ a{
     font-weight: 500;
     font-size: .9rem;
 }
+

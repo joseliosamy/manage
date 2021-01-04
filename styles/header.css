@@ -11,6 +11,9 @@ header .max{
     align-items: center;
     justify-content: space-between;
 }
+header .max img{
+    margin-top: 12px;
+}
 header .max nav{
     display: flex;
 }
