@@ -24,11 +24,42 @@
         width: 80%;
         height: 70px;
     }
-    header .max nav{
+    header .max .desktop{
         display: none;
     }
     header .max .btn{   
-        display: none;
+        display: none
+    }
+    header .max .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 10000;
+    }
+
+    header .max .mobile nav{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #ffffffea;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 250px;
+        border-radius: 5px;
+        
+    }
+    header .max .mobile nav a{
+        margin: 2% 0;
+    }
+    header .mobile #hamburguer{
+        margin-top: 0;
+        cursor: pointer;
+        display: flex;
     }
     #landing .max{
         width: 100%;

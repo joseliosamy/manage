@@ -9,12 +9,31 @@ header .max{
     width: 100%;
     display: flex;
     align-items: center;
+}
+header .max .desktop{
+    width: 100%;
+    display: inherit;
+    align-items: center;
     justify-content: space-between;
 }
 header .max img{
     margin-top: 12px;
 }
-header .max nav{
+header .mobile{
+    display: none;
+}
+header .mobile #hamburguer{
+    display: none;
+}
+.dropIn{
+    display: flex;
+    animation: dropIn .3s;
+}
+.dropOut{
+    display: none;
+    animation: dropOut .3s;
+}
+header .max .desktop nav{
     display: flex;
 }
 header .max nav a{
@@ -33,4 +52,24 @@ header .max .btn a{
     text-decoration: none;
 }
 
+@keyframes dropIn{
+    from{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes dropOut{
+    from{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(-100);
+        opacity: 1;
+    }
+}
 

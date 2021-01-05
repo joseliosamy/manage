@@ -20,12 +20,23 @@ body{
     background-image: url(../images/bg-simplify-section-desktop.svg);
     background-repeat: no-repeat;
     background-position: top;
+    position: relative;
 }
 #container{
     margin: 0 auto;
 }
 a{
     color: var(--vary-light-gray);
+}
+#backdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(3px);
 }
 /*boot*/
 .max{
