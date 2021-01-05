@@ -32,8 +32,11 @@
     }
     #landing .max{
         width: 100%;
+        min-height: auto;
+        padding: 12% 0;
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
     }
     #landing .descrip{
         text-align: center;
@@ -110,6 +113,7 @@
     }
     #clients .card{
         margin-top: 60px;
+        margin-right: 0;
     }
     #clients .cards .card h1{
         font-size: min(1.3rem, 4.7vw);
@@ -149,13 +153,14 @@
     }
     footer .utilities a{
         margin: 0 10px;
+        font-size: min(.9rem, 4vw);
     }
     footer .search{
         width: 100%;
         position: relative;
     }
     footer .search p{
-        top: 220px;
+        top: 218px;
         position: absolute;
     }
     footer .input-search{
@@ -170,5 +175,32 @@
     }
 }
 @media(max-width:550px){
-    
+    #landing .max{
+        padding: 20% 0;
+    }
+}
+@media(max-width: 410px){
+    .btn a{
+        width: 130px;
+        height: 45px;
+        font-size: min(.9rem, 4vw);
+    }
+}
+@media(max-width: 310px){
+    footer .max{
+        padding: 15% 0;
+    }
+    footer .network a{
+        margin: 0 5px;
+    }
+    footer .search p{
+        font-size: min(10vw, .7rem);
+    }
+
+}
+@media(max-width:233px){
+    footer .search p{
+        font-size: min(10vw, .7rem);
+        top: 260px;
+    }
 }

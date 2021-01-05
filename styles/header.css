@@ -23,6 +23,12 @@ header .max nav a{
     margin: 0 15px;
     font-size: .8rem;
 }
+header .max nav a h3{
+    transition: .3s;
+}
+header .max nav a:hover h3{
+    color:  #7e88ad;
+}
 header .max .btn a{
     text-decoration: none;
 }

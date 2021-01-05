@@ -132,7 +132,7 @@
     background-color: #f0f0f073;
     position: relative;
     margin-right: 10px;
-    margin-top: 30px;
+    margin-top: 45px;
     padding: 30px 20px;
 }
 #clients .card .avatar{
@@ -187,6 +187,10 @@
     background-color: white;
     text-decoration: none;
     box-shadow: 0 5px 5px #46464654;
+    transition: .3s;
+}
+#banner .btn a:hover{
+    background-color: #e2e2e2;
 }
 
 footer{
@@ -212,6 +216,10 @@ footer .socials{
 }
 footer .network a{
     margin: 4px;
+    transition: .3s;
+}
+footer .network a:hover{
+    transform: scale(1.2, 1.2);
 }
 footer .utilities{
     display: flex;
@@ -228,6 +236,10 @@ footer .utilities a{
     font-size: .9rem;
     font-weight: 400;
     color: white;
+    transition: .3s;
+}
+footer .utilities a:hover{
+    color: #b6b6b6;
 }
 footer .search{
     height: 100%;
@@ -256,6 +268,12 @@ footer input[type="submit"]{
     font-weight: 500;
     font-size: .8rem;
     color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+footer input[type="submit"]:hover{
+    background-color: #ff8f73;
+    color: #ffefe4;
 }
 footer .search p{
     font-size: .8rem;

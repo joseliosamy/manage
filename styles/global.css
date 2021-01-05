@@ -45,5 +45,10 @@ a{
     border-radius: 30px;
     font-weight: 500;
     font-size: .9rem;
+    transition: .3s;
+}
+.btn a:hover{
+    background-color: #ff8f73;
+    color: #ffefe4;
 }
 
