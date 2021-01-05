@@ -9,9 +9,10 @@ const backdrop = document.querySelector('#backdrop');
 hamburguer.addEventListener('click', () =>{
     if(menu.getAttribute('class') == "dropOut"){
         hamburguer.setAttribute('src', 'images/icon-close.svg');
-        backdrop.setAttribute('style','display:flex');
         menu.classList.remove("dropOut");
         menu.classList.add("dropIn");
+        backdrop.setAttribute('style','display:flex');
+        
     }else{
         hamburguer.setAttribute('src', 'images/icon-hamburger.svg');
         backdrop.setAttribute('style','display:none');
