@@ -21,6 +21,7 @@ body{
     background-repeat: no-repeat;
     background-position: top;
     position: relative;
+    scroll-behavior: smooth;
 }
 #container{
     margin: 0 auto;

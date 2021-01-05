@@ -130,10 +130,12 @@
         margin-left: 0;
     }  
     #differential .list .items .box-items h1{
-        background-color: var(--very-pale-red);
-        border-radius: 30px;
+        border-radius: 0 20px 20px 0;
         margin-bottom: 10px;
         font-size: min(1.3rem, 5.3vw);
+        background-color: #ffffff33;
+        border-left: 5px solid #f25f3a ;
+        box-shadow: 0 1px 5px #f25f3a73;
     }   
     #differential .list .items .box-items h3{
         font-size: min(1rem, 3vw);
