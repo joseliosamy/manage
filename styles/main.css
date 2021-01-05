@@ -107,7 +107,7 @@
 #clients{
     display: flex;
     min-height: 600px;
-    max-height: 1400px;
+    max-height: auto;
     justify-content: center;
 }
 #clients .max{

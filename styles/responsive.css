@@ -20,6 +20,9 @@
     }
 }
 @media(max-width:900px){
+    body{
+        background-image: url(../images/bg-simplify-section-mobile.svg);
+    }
     header{
         width: 80%;
         height: 70px;
@@ -149,7 +152,9 @@
     #clients .cards .card h1{
         font-size: min(1.3rem, 4.7vw);
     } 
-
+    #banner{
+        background-image: url(../images/bg-simplify-banner-mobile.svg);
+    }
     #banner .max{
         width: 90%;
     }
@@ -172,7 +177,15 @@
         margin-bottom: 20px;
     }
     footer .network{
-        width: 60%;
+        width: 100%;
+        position: relative;
+    }
+    footer .network::after{
+        content:"Copyright 2020. All Rights Reserved";
+        position: absolute;
+        top: 150%;
+        color: #a1a1a1;
+        font-size: min(.7rem, 4vw);
     }
     footer .network a{
         margin: 0 20px;
@@ -193,6 +206,7 @@
     footer .search p{
         top: 218px;
         position: absolute;
+        display: none;
     }
     footer .input-search{
         display: flex;
@@ -209,12 +223,26 @@
     #landing .max{
         padding: 20% 0;
     }
+    #banner{
+        background-image: url(../images/bg-simplify-banner-mobile-550px.svg);
+    }
 }
 @media(max-width: 410px){
+    header .mobile a img{
+        width: 90%;
+    }
     .btn a{
         width: 130px;
         height: 45px;
         font-size: min(.9rem, 4vw);
+    }
+    footer .socials a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .socials a img{
+        width: 70%;
     }
 }
 @media(max-width: 310px){
@@ -230,8 +258,14 @@
 
 }
 @media(max-width:233px){
+    header .mobile img#hamburguer{
+        width: 15%;
+    }
     footer .search p{
         font-size: min(10vw, .7rem);
         top: 260px;
+    }
+    .btn a{
+        width: 100px;
     }
 }
